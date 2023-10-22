@@ -1,7 +1,5 @@
 import streamlit as st
 import ast
-import openai
-import os
 import pandas as pd
 from open_ai_inquirer import OpenAIInquirer
 
