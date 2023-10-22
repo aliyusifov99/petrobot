@@ -2,7 +2,6 @@ import streamlit as st
 import ast
 import openai
 import os
-from keys import API_KEY
 import pandas as pd
 from open_ai_inquirer import OpenAIInquirer
 
@@ -22,7 +21,7 @@ def show_message(txt:str):
     if len(txt)==0:
         print('')    
     else:
-        inquirer = OpenAIInquirer(text=txt, df=df)
+        inquirer = OpenAIInquirer(text=txt, df=df, api_key=st.secrets['auth_key'])
         response = inquirer.inquire()
         st.write(response)
     

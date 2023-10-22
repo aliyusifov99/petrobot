@@ -4,10 +4,10 @@ import pandas as pd
 import tiktoken
 from scipy import spatial
 import typing
-from keys import API_KEY
+import streamlit as st
 
 class OpenAIInquirer:
-    def __init__(self, text, df, embedding_model='text-embedding-ada-002', gpt_model= "gpt-4", api_key=API_KEY) -> None:
+    def __init__(self, text, df, embedding_model='text-embedding-ada-002', gpt_model= "gpt-4", api_key = None) -> None:
         self.text = text
         self.df = df
         self.embedding_model = embedding_model
