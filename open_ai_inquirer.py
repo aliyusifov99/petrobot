@@ -1,4 +1,3 @@
-import ast
 import openai
 import pandas as pd
 import tiktoken
