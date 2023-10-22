@@ -50,7 +50,7 @@ class OpenAIInquirer:
 
         return message + question
 
-    def inquire(self, token_budget: int = 7592, print_message: bool = False) -> str:
+    def inquire(self, token_budget: int = 4000, print_message: bool = False) -> str:
         """Main method to execute the query and get a response."""
         message = self._construct_query_message(token_budget=token_budget)
 
