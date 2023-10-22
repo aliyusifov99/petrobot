@@ -9,6 +9,7 @@ df['embedding'] = df['embedding'].apply(ast.literal_eval)
 
     
 st.markdown("<h1 style='text-align: center;'>PetroBot🛢️</h1>", unsafe_allow_html=True)
+st.write("Don't spend hours on software manuals. New AI based chatbot 'PetroBot' will do it for you!")
 st.header("",divider='rainbow')
 text = st.text_area(placeholder = 'Send a message', label = '')
 
