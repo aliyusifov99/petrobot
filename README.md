@@ -8,7 +8,7 @@ PetroBot is an advanced chatbot tailored for the petroleum industry, combining t
 
 ## Inspiration 💡
 
-The concept of PetroBot was born from a desire to simplify the cumbersome process of navigating extensive software applications within the petroleum industry. During my final year, the inefficiency of manual search methods became clear, leading to the development of a chatbot that revolutionizes professional interaction with technology in the petroleum sector.
+The concept of PetroBot was born from a desire to simplify the cumbersome process of navigating extensive software applications within the petroleum industry. During my final year, the inefficiency of manual search methods became clear, leading to the development of a chatbot that improves professional interaction with technology in the petroleum sector.
 
 ## Features 🌟
 
@@ -22,36 +22,48 @@ You can download the project using git clone git@github.com:aliyusifov99/petrobo
 
 ## Usage 🚀
 
-Step-by-step guide on how to use PetroBot, including example queries and responses.
+The bot boasts a straightforward user interface, where users pose their queries in a chat format. It then retrieves the answers by consulting the manual and utilizing the GPT-4 model, employing a sophisticated question-answering technique.
 
 ## Technical Details 🔍
 
 ### Data Extraction
 
-Detail the use of `pdfplumber` for extracting text from PDFs, identifying headers, and segmenting the content. Explain the process of organizing data using `pandas` and preparing it for further analysis.
+The data extraction process is pivotal in converting raw data from PDFs into a structured format suitable for further analysis. Using the `pdfplumber` library, text is efficiently extracted from PDF documents, with special emphasis on identifying section headers based on text case heuristics. The extracted text, potentially vast and unwieldy, is then segmented into smaller, more manageable pieces, ensuring they meet the constraints of APIs in subsequent steps.
+
+The entire workflow benefits significantly from the `pandas` library, instrumental in handling and organizing data. Its robust data manipulation capabilities facilitate a seamless transition from raw text extraction to a structured format, ready for advanced operations like text embedding or deeper textual analysis.
 
 ### OpenAI API Integration
 
-Discuss the testing and integration of the OpenAI API, focusing on its capacity for answering questions effectively and the insights gained during experimentation.
+The integration phase with the OpenAI API was marked by rigorous testing, specifically evaluating the API's prowess in question-answering scenarios. Through methodical experimentation, we assessed the API's understanding and response accuracy, providing invaluable insights. These findings were crucial in refining our development approach, ensuring that the API's advanced AI capabilities were fully leveraged for high-quality, context-aware interactions in subsequent phases of the project.
 
 ### Interface Creation
 
-Describe the use of the `streamlit` library in building the initial user interface, highlighting its features and capabilities.
+The initial user interface, a critical point of interaction for users, was crafted using the `streamlit` library, known for its efficiency and ease of use in creating interactive web applications. The intuitive design simplifies user engagement with the system, allowing for straightforward information input and retrieval, as evident in the screenshot provided. This practical and user-friendly approach underscores the project's commitment to enhancing user experience.
 
 ### Word Embedding
 
-Outline the process of generating text embeddings using the "text-embedding-ada-002" model from OpenAI. Mention batch processing, error handling, and data organization.
+During the text embedding phase, the "text-embedding-ada-002" model from OpenAI was employed to transform pre-processed text data into meaningful numerical representations or embeddings. This procedure, often challenged by the extensive nature of the text data, was conducted in batches to meet the API's operational constraints and maintain efficient data processing.
+
+A strategy of careful batch size determination and robust error handling was implemented to ensure smooth communication with the OpenAI API and the integrity of the data exchange process. The `pandas` library played a crucial role in this phase as well, aiding in the systematic organization of the text embeddings in alignment with their corresponding text sections, essential for maintaining consistency and data integrity.
 
 ### Enhanced Text Inquiry
 
-Elaborate on the use of advanced OpenAI models for processing user inquiries, detailing the internal mechanisms of the `OpenAIInquirer` class.
+The project ventured into sophisticated text inquiry functionalities with the introduction of the `OpenAIInquirer` class, designed to process user queries using advanced OpenAI models. This class, initializing with specific user-related parameters, serves as a conduit between user inquiries and the deep learning models, ensuring custom-tailored interactions.
 
-## Screenshots 📸
+Internally, the class operates through several private methods, each contributing to the inquiry process's efficiency and precision. These include functions for retrieving texts based on relevance through cosine similarity calculations, understanding and managing query length concerning GPT model constraints, and carefully constructing the queries to be sent to the model, maintaining the structural and contextual integrity.
 
-![PetroBot Interface](!https://github.com/aliyusifov99/petrobot/blob/main/screenshots/Screenshot%202023-10-23%20154426.png)
+The culmination of these processes is the `inquire` method, which executes the inquiry, adhering to token limitations, and retrieves comprehensive, contextually relevant responses from the GPT model, enhancing the system's overall AI-human interaction quality.
+
 ## Contributions 👥
 
-You can contribute to the project by adding new manuals and .
+Warmly welcome and value contributions from the community to help the project grow. Here's how you can participate:
+
+1. **Submit New Manuals**: Expand the repository by contributing manuals I haven't covered yet. By providing new content, you help diversify the information available and enhance the tool's usefulness.
+
+2. **Enhance Query Responses**: Help me refine the system's interactions by improving how it responds to queries, especially by integrating images from manuals. Your insights into making responses more intuitive and informative will significantly enrich user experience.
+
+3. **Financial Support**: The use of OpenAI APIs incurs costs. Your financial backing will support the scalability and continuous improvement of services, ensuring the project remains sustainable and accessible to everyone.
+
 
 ## References 📚
 
