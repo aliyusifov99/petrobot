@@ -2,9 +2,10 @@
 
 ## Overview
 
-PetroBot is an advanced chatbot tailored for the petroleum industry, combining the power of machine learning with detailed industry-specific insights. This project utilizes OpenAI's cutting-edge technology to transform the way professionals access information, making user interaction with complex manuals as simple as asking a question.
+PetroBot is an advanced chatbot tailored for the petroleum industry, combining the power of machine learning with detailed industry-specific insights. This project utilizes OpenAI's cutting-edge technology to transform the way professionals access information, making user interaction with complex manuals as simple as asking a question. Click here to check out the [PetroBot](https://aliyusifov99-petrobot-main-c8vpla.streamlit.app/)
 
-🎥 Check out a demo of PetroBot in action: [Petrobot Demo Video](https://yourlink.com)
+🎥 Check out a demo of PetroBot in action:
+https://github.com/aliyusifov99/petrobot/assets/72607596/ce24a3c7-d50a-4c6f-87c0-4e9a302519e7
 
 ## Inspiration 💡
 
