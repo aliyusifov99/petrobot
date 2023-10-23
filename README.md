@@ -18,7 +18,7 @@ The concept of PetroBot was born from a desire to simplify the cumbersome proces
 
 ## Installation 🔧
 
-Instructions on setting up the project locally.
+You can download the project using git clone git@github.com:aliyusifov99/petrobot.git
 
 ## Usage 🚀
 
@@ -51,7 +51,7 @@ Elaborate on the use of advanced OpenAI models for processing user inquiries, de
 ![PetroBot Interface](!https://github.com/aliyusifov99/petrobot/blob/main/screenshots/Screenshot%202023-10-23%20154426.png)
 ## Contributions 👥
 
-Information for those who wish to contribute to the project.
+You can contribute to the project by adding new manuals and .
 
 ## References 📚
 
