@@ -11,7 +11,7 @@ class OpenAIInquirer:
         self.df = df
         self.embedding_model = embedding_model
         self.gpt_model = gpt_model
-        openai.api_key = api_key  # This could also be set outside of this class.
+        openai.api_key = api_key  
 
     def _retrieve_ranked_strings(self, max_results: int = 100) -> typing.Tuple[typing.List[str], typing.List[float]]:
         """Internal method to fetch strings ranked by relatedness."""

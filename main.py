@@ -7,7 +7,6 @@ embeddings_path = 'https://raw.githubusercontent.com/aliyusifov99/petrobot/main/
 df = pd.read_csv(embeddings_path)
 df['embedding'] = df['embedding'].apply(ast.literal_eval)
 
-# Title and introduction
 st.markdown("<h1 style='text-align: center;'>PetroBot🛢️</h1>", unsafe_allow_html=True)
 st.markdown(
     """
@@ -20,7 +19,6 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# Highlighting the support for Petrel software
 st.markdown(
     """
     <div style="text-align: center; margin: 20px 0;">
@@ -73,5 +71,4 @@ footer = """
 </div>
 """
 
-# Render the HTML
 st.markdown(footer, unsafe_allow_html=True)
