@@ -70,3 +70,25 @@ Warmly welcome and value contributions from the community to help the project gr
 - [OpenAI Cookbook - Question Answering](https://github.com/openai/openai-cookbook/blob/main/examples/Question_answering_using_embeddings.ipynb)
 - [Embedding Wikipedia Articles for Search](https://github.com/openai/openai-cookbook/blob/12f7c13b61cbe6703cbe7d5038eb9ed522f84141/examples/Embedding_Wikipedia_articles_for_search.ipynb)
 - [Vectoring Words (Word Embeddings) - Computerphile](https://www.youtube.com/watch?v=gQddtTdmG_8)
+
+<!-- Include FontAwesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div style="position: fixed; bottom: 10px; left: 10px; width: 100%; padding: 10px; text-align: center;"> <!-- You can change the background-color -->
+    <h5 style="color: #000000; margin-bottom: 5px;">Connect with me</h5> <!-- Header text -->
+    <a href="https://github.com/aliyusifov99" target="_blank" style="text-decoration: none;">
+        <i class="fa fa-github" style="font-size: 20px; color: black; margin: 0 10px;"></i> <!-- Larger icon size and spacing -->
+    </a>
+    <a href="https://www.linkedin.com/in/ali-yusifov/" target="_blank" style="text-decoration: none;">
+        <i class="fa fa-linkedin" style="font-size: 20px; color: #0077b5; margin: 0 10px;"></i> <!-- Larger icon size and spacing -->
+    </a>
+    <a href="https://twitter.com/aliyusifovpy" target="_blank" style="text-decoration: none;">
+        <i class="fa fa-twitter" style="font-size: 20px; color: #1DA1F2; margin: 0 10px;"></i> <!-- Larger icon size and spacing -->
+    </a>
+    <a href="https://www.datascienceportfol.io/aliyusifov" target="_blank" style="text-decoration: none;">
+        <i class="fa fa-globe" style="font-size: 20px; color: green; margin: 0 10px;"></i> <!-- Larger icon size and spacing -->
+    </a>
+     <a href="https://www.buymeacoffee.com/aliyusifov" target="_blank" style="text-decoration: none;"> <!-- Replace 'YourProfile' with your actual profile path -->
+        <i class="fa fa-coffee" style="font-size: 20px; color: #de751f; margin: 0 10px;"></i> <!-- Coffee icon with standard Buy Me a Coffee color -->
+    </a>
+</div>
