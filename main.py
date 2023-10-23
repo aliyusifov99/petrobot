@@ -67,6 +67,9 @@ footer = """
     <a href="https://www.datascienceportfol.io/aliyusifov" target="_blank" style="text-decoration: none;">
         <i class="fa fa-globe" style="font-size: 20px; color: green; margin: 0 10px;"></i> <!-- Larger icon size and spacing -->
     </a>
+     <a href="https://www.buymeacoffee.com/aliyusifov" target="_blank" style="text-decoration: none;"> <!-- Replace 'YourProfile' with your actual profile path -->
+        <i class="fa fa-coffee" style="font-size: 20px; color: #de751f; margin: 0 10px;"></i> <!-- Coffee icon with standard Buy Me a Coffee color -->
+    </a>
 </div>
 """
 
