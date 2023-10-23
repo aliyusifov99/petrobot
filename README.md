@@ -48,8 +48,7 @@ Elaborate on the use of advanced OpenAI models for processing user inquiries, de
 
 ## Screenshots 📸
 
-![PetroBot Interface](!https://prod-files-secure.s3.us-west-2.amazonaws.com/bdef9f0b-2006-4fd0-a472-b0d875432877/727e399c-47a5-4345-91f3-2b57dc42bc6d/Untitled.png)
-
+![PetroBot Interface](!https://github.com/aliyusifov99/petrobot/blob/main/screenshots/Screenshot%202023-10-23%20154426.png)
 ## Contributions 👥
 
 Information for those who wish to contribute to the project.
