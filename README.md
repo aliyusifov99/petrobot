@@ -72,24 +72,28 @@ Warmly welcome and value contributions from the community to help the project gr
 - [Embedding Wikipedia Articles for Search](https://github.com/openai/openai-cookbook/blob/12f7c13b61cbe6703cbe7d5038eb9ed522f84141/examples/Embedding_Wikipedia_articles_for_search.ipynb)
 - [Vectoring Words (Word Embeddings) - Computerphile](https://www.youtube.com/watch?v=gQddtTdmG_8)
 
-<!-- Include FontAwesome -->
+<!-- FontAwesome inclusion for social icons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<div style="position: fixed; bottom: 10px; left: 10px; width: 100%; padding: 10px; text-align: center;"> <!-- You can change the background-color -->
-    <h5 style="color: #000000; margin-bottom: 5px;">Connect with me</h5> <!-- Header text -->
+<!-- Footer section -->
+<div style="position: fixed; bottom: 0; left: 0; width: 100%; background-color: #f9f9f9; padding: 20px; text-align: center; border-top: solid 1px #ccc;"> <!-- Neutral background, padding, centered text, and a border at the top -->
+    <h5 style="color: #333; margin-bottom: 15px;">Connect with me</h5> <!-- Subtle header color, more space below the header -->
+    
+    <!-- Social media and external links with improved accessibility and visual consistency -->
     <a href="https://github.com/aliyusifov99" target="_blank" style="text-decoration: none;">
-        <i class="fa fa-github" style="font-size: 20px; color: black; margin: 0 10px;"></i> <!-- Larger icon size and spacing -->
+        <i class="fa fa-github" style="font-size: 24px; color: #333; margin: 0 15px;"></i> <!-- Standard color, larger icon size, and spacing -->
     </a>
     <a href="https://www.linkedin.com/in/ali-yusifov/" target="_blank" style="text-decoration: none;">
-        <i class="fa fa-linkedin" style="font-size: 20px; color: #0077b5; margin: 0 10px;"></i> <!-- Larger icon size and spacing -->
+        <i class="fa fa-linkedin" style="font-size: 24px; color: #0077b5; margin: 0 15px;"></i> <!-- LinkedIn color, larger icon size, and spacing -->
     </a>
     <a href="https://twitter.com/aliyusifovpy" target="_blank" style="text-decoration: none;">
-        <i class="fa fa-twitter" style="font-size: 20px; color: #1DA1F2; margin: 0 10px;"></i> <!-- Larger icon size and spacing -->
+        <i class="fa fa-twitter" style="font-size: 24px; color: #1DA1F2; margin: 0 15px;"></i> <!-- Twitter color, larger icon size, and spacing -->
     </a>
     <a href="https://www.datascienceportfol.io/aliyusifov" target="_blank" style="text-decoration: none;">
-        <i class="fa fa-globe" style="font-size: 20px; color: green; margin: 0 10px;"></i> <!-- Larger icon size and spacing -->
+        <i class="fa fa-globe" style="font-size: 24px; color: #4CAF50; margin: 0 15px;"></i> <!-- Standard globe color for website, larger icon size, and spacing -->
     </a>
-     <a href="https://www.buymeacoffee.com/aliyusifov" target="_blank" style="text-decoration: none;"> <!-- Replace 'YourProfile' with your actual profile path -->
-        <i class="fa fa-coffee" style="font-size: 20px; color: #de751f; margin: 0 10px;"></i> <!-- Coffee icon with standard Buy Me a Coffee color -->
+    <a href="https://www.buymeacoffee.com/aliyusifov" target="_blank" style="text-decoration: none;">
+        <i class="fa fa-coffee" style="font-size: 24px; color: #de751f; margin: 0 15px;"></i> <!-- Standard color for 'Buy Me a Coffee', larger icon size, and spacing -->
     </a>
 </div>
+
