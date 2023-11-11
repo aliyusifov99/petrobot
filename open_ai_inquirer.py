@@ -16,6 +16,7 @@ class OpenAIInquirer:
     def _retrieve_ranked_strings(self, max_results: int = 100) -> typing.Tuple[typing.List[str], typing.List[float]]:
         """Internal method to fetch strings ranked by relatedness."""
         query_embedding_response = openai.Embedding.create(model=self.embedding_model, input=self.text)
+        print(query_embedding_response)
         query_embedding = query_embedding_response["data"][0]["embedding"]
 
         def comparison_fn(a, b): return 1 - spatial.distance.cosine(a, b)
